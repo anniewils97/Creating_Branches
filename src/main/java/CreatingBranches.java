@@ -7,8 +7,8 @@ public class CreatingBranches {
 
         System.out.println("Are you joining us? Yes/No answers only.");
         Scanner scanner = new Scanner(System.in);
-        String welcome = "Hello World!";
-        String goodbye = "Bye, World!";
+        String welcome = "Hello, Develop Branch!";
+        String goodbye = "Bye, Develop Branch!";
         String userInput = scanner.nextLine();
 
         if (userInput.equals("Yes")) {
